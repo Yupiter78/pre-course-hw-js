@@ -1,4 +1,4 @@
-let number = Math.floor(Math.random() * 100);
-const isEven = (num) => num % 2 ? `${num}: Это нечетное число` : `${num}: Это четное число`;
+let number1 = Math.floor(Math.random() * 100);
+const isEvenOrOdd = (num) => num % 2 ? `${num}: Это нечетное число` : `${num}: Это четное число`;
 
-console.log(isEven(number));
+console.log(isEvenOrOdd(number1));
